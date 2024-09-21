@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #faf8ef;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee4da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cell-2 { background-color: #eee4da; }
+.cell-4 { background-color: #ede0c8; }
+.cell-8 { background-color: #f2b179; }
+.cell-16 { background-color: #f59563; }
+.cell-32 { background-color: #f67c5f; }
+.cell-64 { background-color: #f67c5f; }
+.cell-128 { background-color: #f9f85d; }
+.cell-256 { background-color: #e5e55e; }
+.cell-512 { background-color: #edcf72; }
+.cell-1024 { background-color: #edcc61; }
+.cell-2048 { background-color: #edc53f; }
